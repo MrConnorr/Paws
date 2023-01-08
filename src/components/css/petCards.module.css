@@ -1,0 +1,69 @@
+.card_container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+
+    width: 380px;
+    height: 380px;
+
+    gap: 50px;
+}
+
+.card_icon
+{
+    width: 200px;
+    height: 200px;
+}
+
+.card_icon svg
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card:nth-child(1)
+{
+    background: var(--accent2);
+}
+
+.card:nth-child(2)
+{
+    background: var(--accent1);
+}
+
+.card:nth-child(3)
+{
+    background: var(--accent3);
+}
+
+.card:nth-child(4)
+{
+    background: var(--secondary);
+}
+
+.card:nth-child(3) .card_icon
+{
+    transform: rotate(10deg);
+}
+
+.card:nth-child(odd)
+{
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
+    box-shadow: 0 10px 10px grey;
+}
+
+.card:nth-child(even)
+{
+    border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+    box-shadow: 0 10px 10px grey;
+}

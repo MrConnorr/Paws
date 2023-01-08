@@ -1,0 +1,41 @@
+@import "Colors.css";
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    gap: 10px;
+
+    width: fit-content;
+}
+
+.buttonIcon
+{
+    display: flex;
+}
+
+.primary-background
+{
+    background: var(--primary);
+    color: #fff;
+}
+
+.small
+{
+    height: 30px;
+
+    padding: 10px 35px 10px 35px;
+}
+
+.small svg
+{
+    width: 28px;
+    height: 28px;
+}
